@@ -558,10 +558,6 @@ video {
   right: 1rem;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -676,6 +672,10 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-full {
@@ -992,6 +992,17 @@ input[type="radio"]:checked + span {
   color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:m-0 {
     margin: 0px;
@@ -1003,6 +1014,10 @@ input[type="radio"]:checked + span {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:text-2xl {
