@@ -16,27 +16,27 @@
     <title>Name Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-200 dark:bg-gray-700">
     <div class="w-auto block sm:flex md:justify-center items-center pt-20 pl-4 pr-4 sm:pt-20 md:mt-0 mb-20 h-100 md:m-auto ">
-    <div class="p-3 md:p-8 rounded-lg  w-full m-auto max-w-md sm:my-2 md:m-0 shadow-lg bg-white"> 
+    <div class="p-3 md:p-8 rounded-lg  w-full m-auto max-w-md sm:my-2 md:m-0 shadow-lg bg-white dark:bg-gray-800"> 
 
         
-        <div class="text-center mt-2 ">
-            <div class="w-30 h-30 mt-[-6rem] inline-block p-2 ml-auto mr-auto bg-white
-         border-gray-100 border-4 rounded-full">
+        <div class="text-center mt-2">
+            <div class="w-30 h-30 mt-[-6rem] inline-block p-2 ml-auto mr-auto bg-white dark:bg-gray-800
+         border-gray-100 dark:border-gray-700  border-4 rounded-full">
             <img src="img/babyNameLogo.webp" class="w-20 h-20 m-auto p-2 generatorLogo" alt="">
            
         </div>
-            <h1 class="text-lg md:text-2xl font-semibold mb-4 Poppins">Pakistani Name Generator</h1>
+            <h1 class="text-lg md:text-2xl font-semibold mb-4 Poppins text-gray-800 dark:text-gray-300">Pakistani Name Generator</h1>
         </div>
         
         
         <div class="mb-4 mt-4">
-            <p class="mb-2">Select Gender:</p>
+            <p class="mb-2 text-gray-800 dark:text-gray-400">Select Gender:</p>
             <div class="grid grid-cols-2 gap-2">
        
-                <label for="male" class="relative flex flex-col items-center bg-white border-cyan-600 border-2 p-5 rounded-lg shadow-md cursor-pointer">
-                  <span class="font-semibold text-gray-500 leading-tight uppercase mb-3">Male</span>    
+                <label for="male" class="relative flex flex-col items-center bg-white dark:bg-gray-600 border-cyan-600 dark:border-gray-800 border-2 p-5 rounded-lg shadow-md cursor-pointer">
+                  <span class="font-semibold text-gray-500 dark:text-gray-300 leading-tight uppercase mb-3">Male</span>    
                   <img src="img/babyBoy.webp" class="w-10 md:w-15" alt="">
 
                   <input type="radio" name="gender" id="male" value="male" class="absolute h-0 w-0 appearance-none" />
@@ -51,8 +51,8 @@
                 
                 
                 
-                <label for="female" class="relative flex flex-col items-center bg-white border-pink-500 border-2  p-5 rounded-lg shadow-md cursor-pointer">
-                  <span class="font-semibold text-gray-500 leading-tight uppercase mb-3">Female</span>     
+                <label for="female" class="relative flex flex-col items-center bg-white dark:bg-gray-600 border-pink-500 dark:border-gray-600 border-2  p-5 rounded-lg shadow-md cursor-pointer">
+                  <span class="font-semibold text-gray-500 dark:text-gray-300 leading-tight uppercase mb-3">Female</span>     
                   <img src="img/babyGirl.webp" class="w-10 md:w-15" alt="">
  
                   <input type="radio" name="gender" id="female" value="female" class="absolute h-0 w-0 appearance-none" />
@@ -71,25 +71,25 @@
 
     
             <div class="group w-100 mb-4">
-                <label for="secondName" class="block w-full pb-1 text-sm font-medium text-gray-500 transition-all duration-200 ease-in-out group-focus-within:text-blue-400">Enter 2nd/Father's Name:</label>
-                <input id="secondName" type="text" class="peer h-10 w-full rounded-md bg-gray-50 px-4 border-2 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:drop-shadow-lg" />
+                <label for="secondName" class="block w-full pb-1 text-sm font-medium transition-all duration-200 ease-in-out group-focus-within:text-blue-400 dark:group-focus-within:text-gray-200 text-gray-800 dark:text-gray-400">Enter 2nd/Father's Name:</label>
+                <input id="secondName" type="text" class="peer h-10 w-full rounded-md bg-gray-50 dark:bg-gray-600 dark:border-gray-600 px-4 border-2 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-white focus:drop-shadow-lg" />
               </div>
 
 
-        <div class="mt-6 text-center bg-green-100 border-2 border-green-200 rounded-md p-2 mb-3">
-            <p class="text-lg font-semibold text-green-700" id="generatedName">Generated Name Will Appear Here</p>
+        <div class="mt-6 text-center bg-green-100 dark:bg-green-600  border-2 border-green-200 dark:border-green-600 rounded-md p-2 mb-3">
+            <p class="text-lg font-semibold text-green-700 dark:text-green-900" id="generatedName">Generated Name Will Appear Here</p>
         </div>
 
        <div class="text-center mt-5">
-        <button id="generateBtn" class="bg-cyan-500 hover:bg-cyan-600
-        text-white  
+        <button id="generateBtn" class="bg-cyan-500 dark:bg-cyan-700 dark:hover:bg-cyan-800 hover:bg-cyan-600
+        text-white dark:text-cyan-100  
        px-4 py-2 rounded-full cursor-pointer ease-in-out duration-300
        ">Generate Name</button>
        </div>
 
 
        <div class='mt-7 block text-sm text-center text-gray-400'>
-        Created by  <a href="https://sohrabzia.github.io/" class="text-gray-500 hover:text-yellow-700 transition-all duration-300  uppercase font-bold tracking-widest">Sohrab zia</a> 
+          <a href="https://sohrabzia.github.io/" class="text-gray-500 hover:text-yellow-700 dark:hover:text-gray-200 transition-all duration-300  uppercase font-bold tracking-widest">Sohrab zia</a> 
       </div>
 
 
